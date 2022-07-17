@@ -18,6 +18,7 @@ html {
   font-family: "Roboto Mono", monospace;
   color: var(--text);
   background-color: var(--background);
+  scroll-behavior: smooth;
 }
 
 .bold {
@@ -50,8 +51,6 @@ html {
 .splash-image {
   width: 8%;
 }
-
-
 
 /* Responsive text size */
 h1 {
@@ -98,6 +97,15 @@ ul li {
   width: 100%;
   color: var(--text-splash);
 }
+
+.arrow a {
+  font-weight: 700;
+  color: var(--text-splash);
+  text-decoration: none;
+  font-size: 5vh;
+  margin-top: 16px;
+}
+
 
 /* Main */
 
